@@ -1,0 +1,922 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="PC Atölye - Bilgisayar sorunlarını çöz, sistemini analiz et ve bilgisayarını bilinçli şekilde yükselt.">
+
+    <meta name="theme-color" content="#090909">
+
+    <title>PC Atölye | Bilgisayar Destek Merkezi</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+
+    <div class="background-glow"></div>
+    <div class="background-grid"></div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-microchip"></i>
+                </span>
+
+                <span class="logo-text">
+                    PC <strong>ATÖLYE</strong>
+                </span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#home" class="nav-link active">Ana Sayfa</a>
+
+                <a href="#solutions" class="nav-link">Sorun Çözümü</a>
+
+                <a href="#upgrade" class="nav-link">Sistem Yükseltme</a>
+
+                <a href="#maintenance" class="nav-link">Bilgisayar Bakımı</a>
+
+                <a href="#about" class="nav-link">Hakkımızda</a>
+
+            </nav>
+
+            <a href="#solutions" class="nav-button">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                Destek Al
+            </a>
+
+            <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Menüyü aç">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Ana Sayfa</a>
+        <a href="#solutions">Sorun Çözümü</a>
+        <a href="#upgrade">Sistem Yükseltme</a>
+        <a href="#maintenance">Bilgisayar Bakımı</a>
+        <a href="#about">Hakkımızda</a>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="status-dot"></span>
+                    BİLGİSAYAR DESTEK MERKEZİ
+                </div>
+
+                <h1>
+                    Bilgisayarını
+                    <span class="gold-text">Tanı.</span>
+
+                    Sorunlarını
+                    <span class="gold-text">Çöz.</span>
+
+                    Sistemini
+                    <span class="gold-text">Geliştir.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Bilgisayarınla ilgili sorunları anlamak, performansını
+                    geliştirmek ve donanımını doğru şekilde yükseltmek için
+                    ihtiyacın olan her şey tek bir yerde.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#solutions" class="button button-primary">
+                        <i class="fa-solid fa-wrench"></i>
+                        Sorunumu Çöz
+                    </a>
+
+                    <a href="#upgrade" class="button button-secondary">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        Sistemimi Yükselt
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <strong>04</strong>
+                        <span>Sorun kategorisi</span>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <strong>03</strong>
+                        <span>Ana yardımcı sistem</span>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <strong>01</strong>
+                        <span>Merkezi platform</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-image-frame">
+
+                    <div class="image-overlay"></div>
+
+                    <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=1200&q=85"
+                         alt="RGB ışıklı masaüstü bilgisayar">
+
+                    <div class="floating-card floating-card-top">
+
+                        <i class="fa-solid fa-microchip"></i>
+
+                        <div>
+                            <strong>Donanım Analizi</strong>
+                            <span>Sistemini tanı</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <div>
+                            <strong>Güvenli Bakım</strong>
+                            <span>Kontrollü işlemler</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-decoration"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUICK FEATURES -->
+
+        <section class="quick-features">
+
+            <div class="feature-item">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Sorun Analizi</span>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-gauge-high"></i>
+                <span>Performans</span>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-memory"></i>
+                <span>Donanım</span>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-brands fa-windows"></i>
+                <span>Windows</span>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-wifi"></i>
+                <span>İnternet</span>
+            </div>
+
+        </section>
+
+
+        <!-- SOLUTIONS -->
+
+        <section class="section solutions-section" id="solutions">
+
+            <div class="section-heading">
+
+                <span class="section-label">DESTEK MERKEZİ</span>
+
+                <h2>
+                    Sorununu Bul.
+                    <span class="gold-text">Çözümünü Öğren.</span>
+                </h2>
+
+                <p>
+                    Bilgisayarında yaşadığın sorunu seç. PC Atölye sana
+                    adım adım uygulayabileceğin çözüm önerilerini göstersin.
+                </p>
+
+            </div>
+
+
+            <div class="solution-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                       id="solutionSearch"
+                       placeholder="Örnek: Bilgisayarım çok yavaş..."
+                       autocomplete="off">
+
+                <span class="search-shortcut">ARA</span>
+
+            </div>
+
+
+            <div class="solution-categories">
+
+                <button class="category-button active" data-category="all">
+                    Tümü
+                </button>
+
+                <button class="category-button" data-category="performance">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    Performans
+                </button>
+
+                <button class="category-button" data-category="hardware">
+                    <i class="fa-solid fa-microchip"></i>
+                    Donanım
+                </button>
+
+                <button class="category-button" data-category="windows">
+                    <i class="fa-brands fa-windows"></i>
+                    Windows
+                </button>
+
+                <button class="category-button" data-category="internet">
+                    <i class="fa-solid fa-wifi"></i>
+                    İnternet
+                </button>
+
+            </div>
+
+
+            <div class="solution-grid" id="solutionGrid">
+
+                <!-- JAVASCRIPT TARAFINDAN OLUŞTURULACAK -->
+
+            </div>
+
+            <div class="no-results" id="noResults">
+
+                <i class="fa-solid fa-circle-question"></i>
+
+                <h3>Sonuç bulunamadı.</h3>
+
+                <p>Farklı bir kelime veya kategori deneyebilirsin.</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- UPGRADE -->
+
+        <section class="section upgrade-section" id="upgrade">
+
+            <div class="section-heading">
+
+                <span class="section-label">SİSTEM GELİŞTİRME MERKEZİ</span>
+
+                <h2>
+                    Bilgisayarını
+                    <span class="gold-text">Bir Üst Seviyeye Taşı.</span>
+                </h2>
+
+                <p>
+                    Mevcut sistemini tanımla. Kullanım amacını ve bütçeni
+                    belirt. Sana uygun bir yükseltme planı oluşturalım.
+                </p>
+
+            </div>
+
+
+            <div class="upgrade-layout">
+
+
+                <!-- SYSTEM FORM -->
+
+                <div class="upgrade-form-card">
+
+                    <div class="card-heading">
+
+                        <div class="card-heading-icon">
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+
+                        <div>
+                            <h3>Sistem Bilgilerim</h3>
+                            <p>Mevcut bilgisayarının özelliklerini gir.</p>
+                        </div>
+
+                    </div>
+
+
+                    <form id="upgradeForm">
+
+                        <div class="form-group">
+
+                            <label for="usage">
+                                Bilgisayarını ne için kullanıyorsun?
+                            </label>
+
+                            <select id="usage" required>
+
+                                <option value="">Kullanım amacını seç</option>
+
+                                <option value="gaming">Oyun</option>
+
+                                <option value="work">İş ve Ofis</option>
+
+                                <option value="design">Tasarım ve Grafik</option>
+
+                                <option value="editing">Video Düzenleme</option>
+
+                                <option value="development">Yazılım ve Geliştirme</option>
+
+                                <option value="general">Günlük Kullanım</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="computerType">Bilgisayar türü</label>
+
+                            <select id="computerType" required>
+
+                                <option value="">Bilgisayar türünü seç</option>
+
+                                <option value="desktop">Masaüstü</option>
+
+                                <option value="laptop">Dizüstü</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="ram">RAM kapasitesi</label>
+
+                                <select id="ram" required>
+
+                                    <option value="">RAM seç</option>
+
+                                    <option value="4">4 GB</option>
+                                    <option value="8">8 GB</option>
+                                    <option value="12">12 GB</option>
+                                    <option value="16">16 GB</option>
+                                    <option value="24">24 GB</option>
+                                    <option value="32">32 GB</option>
+                                    <option value="64">64 GB</option>
+                                    <option value="128">128 GB</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="storageType">Depolama türü</label>
+
+                                <select id="storageType" required>
+
+                                    <option value="">Tür seç</option>
+
+                                    <option value="hdd">HDD</option>
+
+                                    <option value="sata">SATA SSD</option>
+
+                                    <option value="nvme">NVMe SSD</option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="storageCapacity">
+                                Depolama kapasitesi
+                            </label>
+
+                            <select id="storageCapacity" required>
+
+                                <option value="">Kapasite seç</option>
+
+                                <option value="128">128 GB</option>
+                                <option value="256">256 GB</option>
+                                <option value="512">512 GB</option>
+                                <option value="1000">1 TB</option>
+                                <option value="2000">2 TB</option>
+                                <option value="4000">4 TB</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="gpu">Ekran kartı</label>
+
+                            <input type="text"
+                                   id="gpu"
+                                   placeholder="Örn: GTX 1650, RTX 3060, Iris Xe..."
+                                   required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="vram">Ekran kartı belleği (VRAM)</label>
+
+                            <select id="vram" required>
+
+                                <option value="">VRAM seç</option>
+
+                                <option value="0">Paylaşımlı / Bilinmiyor</option>
+                                <option value="2">2 GB</option>
+                                <option value="4">4 GB</option>
+                                <option value="6">6 GB</option>
+                                <option value="8">8 GB</option>
+                                <option value="10">10 GB</option>
+                                <option value="12">12 GB</option>
+                                <option value="16">16 GB</option>
+                                <option value="24">24 GB</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="cpu">İşlemci modeli</label>
+
+                            <input type="text"
+                                   id="cpu"
+                                   placeholder="Örn: Intel Core i5-10400F..."
+                                   required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="budget">
+                                Yükseltme bütçesi (TL)
+                            </label>
+
+                            <input type="number"
+                                   id="budget"
+                                   placeholder="Örn: 15000"
+                                   min="0"
+                                   max="10000000"
+                                   required>
+
+                        </div>
+
+
+                        <button type="submit" class="button button-primary form-submit">
+
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                            Yükseltme Planımı Oluştur
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- UPGRADE RESULT -->
+
+                <div class="upgrade-result-card" id="upgradeResult">
+
+                    <div class="result-empty">
+
+                        <div class="result-empty-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <h3>Sistem Analizi Bekleniyor</h3>
+
+                        <p>
+                            Bilgisayarının özelliklerini girdikten sonra
+                            sana özel yükseltme önerileri burada görünecek.
+                        </p>
+
+                        <div class="result-empty-footer">
+
+                            <i class="fa-solid fa-shield-halved"></i>
+
+                            Bilinçli yükseltme, doğru yatırım.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAINTENANCE -->
+
+        <section class="section maintenance-section" id="maintenance">
+
+            <div class="section-heading">
+
+                <span class="section-label">BAKIM VE TEMİZLİK MERKEZİ</span>
+
+                <h2>
+                    Bilgisayarına
+                    <span class="gold-text">İyi Bak.</span>
+                </h2>
+
+                <p>
+                    Bilgisayarının bakımını yaparken doğru adımları izle.
+                    Güvenlik kurallarını incele ve tamamladığın işlemleri işaretle.
+                </p>
+
+            </div>
+
+
+            <div class="maintenance-layout">
+
+                <div class="maintenance-info">
+
+                    <div class="maintenance-image">
+
+                        <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1000&q=85"
+                             alt="Bilgisayar donanım parçaları">
+
+                        <div class="maintenance-image-label">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            DONANIM BAKIMI
+                        </div>
+
+                    </div>
+
+
+                    <div class="maintenance-warning">
+
+                        <div class="warning-heading">
+
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+
+                            <h3>Önemli Güvenlik Uyarısı</h3>
+
+                        </div>
+
+                        <ul>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Bilgisayarı tamamen kapat.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Güç bağlantısını ve harici kabloları çıkar.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Elektronik parçalara doğrudan sıvı uygulama.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Güç kaynağının (PSU) kasasını kesinlikle açma.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Statik elektrik riskine karşı uygun önlemleri al.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Garanti koşullarını kontrol et.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Deneyimin yoksa teknik destek al.
+                            </li>
+
+                        </ul>
+
+                        <p class="warning-footer">
+                            Güvenlik, bilgisayar bakımının en önemli aşamasıdır.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="maintenance-checklist-card">
+
+                    <div class="checklist-header">
+
+                        <div>
+
+                            <h3>Bakım Kontrol Listesi</h3>
+
+                            <p>Bilgisayar türünü seçerek adımları görüntüle.</p>
+
+                        </div>
+
+                        <i class="fa-solid fa-clipboard-check"></i>
+
+                    </div>
+
+
+                    <div class="maintenance-type">
+
+                        <button class="maintenance-type-button active" data-type="desktop">
+
+                            <i class="fa-solid fa-desktop"></i>
+                            Masaüstü
+
+                        </button>
+
+                        <button class="maintenance-type-button" data-type="laptop">
+
+                            <i class="fa-solid fa-laptop"></i>
+                            Dizüstü
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="maintenance-progress">
+
+                        <div class="progress-information">
+
+                            <span>Bakım ilerlemesi</span>
+
+                            <strong id="progressText">0%</strong>
+
+                        </div>
+
+                        <div class="progress-track">
+
+                            <div class="progress-bar" id="progressBar"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="checklist-items" id="checklistItems">
+
+                        <!-- JAVASCRIPT TARAFINDAN OLUŞTURULACAK -->
+
+                    </div>
+
+
+                    <div class="maintenance-complete" id="maintenanceComplete">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <div>
+
+                            <strong>Bakım kontrol listesi tamamlandı!</strong>
+
+                            <p>Tüm bakım adımlarını işaretledin.</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="reset-checklist" id="resetChecklist">
+
+                        <i class="fa-solid fa-rotate-left"></i>
+                        Listeyi Sıfırla
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-container">
+
+                <div class="about-content">
+
+                    <span class="section-label">PC ATÖLYE HAKKINDA</span>
+
+                    <h2>
+                        Teknolojiyi Anlamak,
+                        <span class="gold-text">Yönetmenin İlk Adımıdır.</span>
+                    </h2>
+
+                    <p>
+                        PC Atölye, bilgisayar kullanıcılarının sistemlerini
+                        daha iyi tanımaları, yaşadıkları sorunları anlamaları
+                        ve donanım yükseltmelerini bilinçli şekilde
+                        planlamaları için tasarlanmış bir yardımcı platformdur.
+                    </p>
+
+                    <p>
+                        Amacımız yalnızca çözüm sunmak değil, kullanıcıların
+                        bilgisayarlarının nasıl çalıştığını öğrenmelerine
+                        yardımcı olmaktır.
+                    </p>
+
+                    <a href="#solutions" class="button button-primary">
+
+                        PC Atölye'yi Keşfet
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="about-visual">
+
+                    <div class="about-icon-large">
+
+                        <i class="fa-solid fa-microchip"></i>
+
+                    </div>
+
+                    <div class="about-orbit orbit-one"></div>
+                    <div class="about-orbit orbit-two"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="logo">
+
+                        <span class="logo-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </span>
+
+                        <span class="logo-text">
+                            PC <strong>ATÖLYE</strong>
+                        </span>
+
+                    </a>
+
+                    <p>
+                        Bilgisayarını tanı. Sorunlarını çöz.
+                        Sistemini geliştir.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h4>Platform</h4>
+
+                    <a href="#home">Ana Sayfa</a>
+                    <a href="#solutions">Sorun Çözümü</a>
+                    <a href="#upgrade">Sistem Yükseltme</a>
+                    <a href="#maintenance">Bilgisayar Bakımı</a>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h4>Bilgi</h4>
+
+                    <a href="#about">Hakkımızda</a>
+                    <a href="#solutions">Destek Merkezi</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="currentYear"></span> PC Atölye.
+                    Tüm hakları saklıdır.
+                </span>
+
+                <span class="footer-slogan">
+                    POWERED BY KNOWLEDGE.
+                </span>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- BACK TO TOP -->
+
+    <button id="backToTop" class="back-to-top" aria-label="Yukarı çık">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- MODAL -->
+
+    <div class="modal-overlay" id="solutionModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose" aria-label="Kapat">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
